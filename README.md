@@ -2,7 +2,7 @@
 
 ### NOTE! Changing to new "main" branch on March 1st because of BETTER METHOD
 
-According to [Issue #3](https://github.com/Andrew-Chen-Wang/SPA-with-httponly-sessions/issues/3),
+According to [Issue #3](https://github.com/lukpoex/SPA-with-httponly-sessions/issues/3),
 a better way to do this to increase development time is to use
 sessions for production and JWT for local. Currently, Django-webpack-loader and this
 repository uses some form of bundling the React JS which
@@ -48,7 +48,7 @@ deploying the files that were in your urls.py (i.e. the HTML file
 and the other build files that aren't in that subdirectory) to your
 Django repository.
 
-More details are in [Issue #3](https://github.com/Andrew-Chen-Wang/SPA-with-httponly-sessions/issues/3).
+More details are in [Issue #3](https://github.com/lukpoex/SPA-with-httponly-sessions/issues/3).
 
 ---
 
@@ -60,7 +60,7 @@ All other tutorials use an insecure method of setting session
 or JWT tokens in the JS via some REST API for login. Don't
 do it anymore. Prone to XSS.
 
-By: [Andrew Chen Wang](https://github.com/Andrew-Chen-Wang)
+By: [Andrew Chen Wang](https://github.com/lukpoex)
 
 Created On: 14 January 2021
 
